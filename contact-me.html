@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Contact Details</h1>
+    <h4>Phone Number</h4>
+    <p> <a href="tel:7604157759">(760) 415-7759</a> </p>
+    <h4>Website</h4>
+    <p><a href="https://www.snowhousecreatives.com/">https://www.snowhousecreatives.com/</a></p>
+    <h4>Email</h4>
+    <p>masonhsnow@gmail.com</p>
+
+<h3>Just a normal easy form, not formatted with HTML</h3>
+    <form action="mailto:masonhsnow@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""> <br>
+      <label>Email Address:</label>
+      <input type="email" name="yourEmail" value=""> <br>
+      <label>Select your favorite color</label>
+      <input type="color" name="yourColor" value=""> <br>
+      <label>Please upload your favorite meme</label>
+      <input type="file" name="yourFile" value=""> <br>
+      <input type="submit" name="">
+    </form>
+<br>
+<br>
+<br>
+<h3>The incorrect way - nesting 9 forms within 1 table</h3>
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <form class="" action="index.html" method="post">
+            <label>Your Name:</label>
+          </form>
+        </td>
+        <td>
+        <form>
+          <input type="text" name="" value="">
+        </form>
+      </td>
+      </tr>
+      <tr>
+        <td>
+          <form class="" action="index.html" method="post">
+            <label>Email Address:</label>
+          </form>
+        </td>
+        <td>
+        <form>
+          <input type="email" name="" value="">
+        </form>
+      </td>
+      </tr>
+      <tr>
+        <td>
+          <form class="" action="index.html" method="post">
+            <label>Select your favorite color</label>
+          </form>
+        </td>
+        <td>
+        <form>
+          <input type="color" name="" value="">
+        </form>
+      </td>
+      </tr>
+      <tr>
+        <td>
+          <form class="" action="index.html" method="post">
+            <label>Please upload your favorite meme</label>
+          </form>
+        </td>
+        <td>
+        <form>
+          <input type="file" name="" value="">
+        </form>
+      </td>
+      </tr>
+      <tr>
+        <form>
+          <th><input type="submit" name=""></th>
+        </form>
+      </tr>
+    </table>
+    <br><br><br><br>
+
+
+<h3>The correct way to nest a table within a form - nesting 1 table within 1 form</h3>
+    <form class="" action="mailto@masonhsnow@gmail.com" method="post">
+      <table cellspacing="10">
+        <tr>
+          <td><label>Your Name:</label></td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+        <tr>
+          <td><label>Email Address:</label></td>
+          <td><input type="email" name="" value=""></td>
+        </tr>
+        <tr>
+          <td><label>Select your favorite color</label></td>
+          <td><input type="color" name="" value=""></td>
+        </tr>
+        <tr>
+          <td><label>Please upload your favorite meme</label></td>
+          <td><input type="file" name="" value=""></td>
+        </tr>
+        <tr>
+          <th><input type="submit" name=""></th>
+        </tr>
+      </table>
+    </form>
+
+  </body>
+</html>
